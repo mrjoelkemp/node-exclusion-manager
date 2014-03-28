@@ -1,0 +1,28 @@
+{
+  "name": "exclusion-manager",
+  "version": "1.0.0",
+  "description": "Manages a list of file or directory names (or patterns) to ignore/exclude and provides an easy to way check if a file or directory name should be ignored.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrjoelkemp/node-exclusion-manager"
+  },
+  "keywords": [
+    "ignore",
+    "directory",
+    "files",
+    "exclude"
+  ],
+  "author": "Joel Kemp <joel@mrjoelkemp.com> (http://www.mrjoelkemp.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/node-exclusion-manager/issues"
+  },
+  "homepage": "https://github.com/mrjoelkemp/node-exclusion-manager"
+}
