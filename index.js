@@ -1,5 +1,5 @@
 module.exports = function (exclusions) {
-  this.exclusions = exclusions.length ? convertToRegex(exclusions) : [];
+  this.exclusions = exclusions && exclusions.length ? convertToRegex(exclusions) : [];
 };
 
 module.exports.prototype.addExclusion = function (name) {
