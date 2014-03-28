@@ -7,6 +7,7 @@ module.exports.prototype.addExclusion = function (name) {
 };
 
 // Whether or not the given filename matches a pattern to exclude
+// Returns false if there are no files/folders being excluded
 module.exports.prototype.shouldIgnore = function (name) {
   for (var i = 0, l = this.exclusions.length; i < l; i++) {
     if (this.exclusions[i].test(name)) {
