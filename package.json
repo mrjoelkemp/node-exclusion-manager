@@ -1,6 +1,6 @@
 {
   "name": "exclusion-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manages a list of file or directory names (or patterns) to ignore/exclude and provides an easy to way check if a file or directory name should be ignored.",
   "main": "index.js",
   "directories": {
